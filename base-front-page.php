@@ -16,7 +16,7 @@ use Roots\Sage\Wrapper;
 do_action('get_header');
 get_template_part('templates/header','front-page');
 ?>
-<header>
+<header id="landing">
     <div class="header-content">
         <div class="header-content-inner">
             <h1>Content Management for tourism</h1>
