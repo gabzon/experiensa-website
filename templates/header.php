@@ -13,7 +13,7 @@ $menu_name = 'primary_navigation';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa.png" alt="Dancefloor logo" class="ui small image" /></a>
+            <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa.png" alt="experiensa logo" class="ui small image" /></a>
         </div>
 
         <nav class="collapse navbar-collapse" role="navigation" style="text-transform:uppercase">
