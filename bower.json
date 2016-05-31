@@ -38,7 +38,13 @@
             "main": [
                 "./dist/semantic.css",
                 "./dist/themes/default/assets/fonts/*",
-                "./dist/semantic.js"
+                "./dist/semantic.js",
+                "./dist/default/assets/fonts/icons.eot",
+                "./dist/default/assets/fonts/icons.otf",
+                "./dist/default/assets/fonts/icons.svg",
+                "./dist/default/assets/fonts/icons.ttf",
+                "./dist/default/assets/fonts/icons.woff",
+                "./dist/default/assets/fonts/icons.woff2"
             ]
         },
         "vide": {

@@ -3,7 +3,6 @@ use Roots\Sage\Nav;
 use Roots\Sage\Nav\NavWalker;
 $menu_name = 'primary_navigation';
 ?>
-
 <header class="banner navbar navbar-fixed-top" role="banner" style="background-color:white;border-bottom:1px solid #eee">
     <div class="container">
         <div class="navbar-header">
@@ -25,3 +24,14 @@ $menu_name = 'primary_navigation';
         </nav>
     </div>
 </header>
+
+<!-- <div class="ui top fixed inverted collapsible menu">
+<div class="container">
+<div class="header"><a class="left floated item brand">Collapsible-Menu</a>
+<div class="ui mini right floated button"><i class="list icon"></i></div><a class="right floated item">Other</a>
+</div>
+<div class="content"><a class="left floated item">One</a><a class="left floated item">Two</a>
+<div class="right menu"><a class="item">Three</a></div>
+</div>
+</div>
+</div> -->

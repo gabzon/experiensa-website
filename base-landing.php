@@ -30,14 +30,14 @@ get_template_part('templates/header','front-page');
 </div>
 </header>
 
-<section class="bg-primary landing" id="about">
+<section class="bg-primary landing" id="product">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Experiensa c'est quoi ?</h2>
                 <hr class="light landing">
                 <p class="text-faded">
-                    Une solution web pour les acteurs du tourisme: agences de voyages, bed & breakfast, offices de tourisme et hôtels leur permettant de grandir avec le web
+                    Une solution web de publication et gestion de contenus pour les acteurs du tourisme: agences de voyages, bed & breakfast, offices de tourisme et hôtels leur permettant de grandir avec l'internet
                 </p>
 
                 <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
@@ -75,21 +75,22 @@ get_template_part('templates/header','front-page');
                 <div class="service-box">
                     <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                     <h3>Ergonomie</h3>
-                    <p class="text-muted">Publication du contenu de façon facile et agréable</p>
+                    <p class="text-muted">Publication du contenu<br> facile et agréable</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
                     <h3>Efficacité</h3>
-                    <p class="text-muted">Formulaire intelligents pour générer les devis/offres et des espaces centralisés de questions-reponses</p>
+                    <p class="text-muted">Communication simplifiée. <br>Dites au revoir aux emails!</p>
+                    <!-- <p class="text-muted">Mieux communiquer avec vos clients via des formulaires et des espaces de questions-reponses</p> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="no-padding landing" id="portfolio">
+<section class="no-padding landing" style="padding-bottom:0">
     <div class="container-fluid">
         <div class="row no-gutter">
             <div class="col-lg-4 col-sm-6">
@@ -101,7 +102,7 @@ get_template_part('templates/header','front-page');
                                 Voyages
                             </div>
                             <div class="project-name">
-                                Gérer et publier le catalogue de voyages
+                                Publiez des offres de voyages attractives en toute simplicité <br>avec une librairie de modèles
                             </div>
                         </div>
                     </div>
@@ -116,7 +117,7 @@ get_template_part('templates/header','front-page');
                                 Devis
                             </div>
                             <div class="project-name">
-                                Création d'offres et devis
+                                Générez les demandes de devis<br> et créez les offres avec <br>des formulaires et des espaces questions-réponses
                             </div>
                         </div>
                     </div>
@@ -131,7 +132,7 @@ get_template_part('templates/header','front-page');
                                 Agences de voyage partenaires
                             </div>
                             <div class="project-name">
-                                Création d'offres et devis
+                                Gardez à jour automatiquement les données des agences clients, sous-traitantes et fournisseurs
                             </div>
                         </div>
                     </div>
@@ -143,10 +144,10 @@ get_template_part('templates/header','front-page');
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Partenaire d'hébergement
+                                Partenaires d'hébergement
                             </div>
                             <div class="project-name">
-                                Gérer et publie
+                                Gardez à jour automatiquement les données des partenaires d'hérbergement: hôtels et bed & breakfasts
                             </div>
                         </div>
                     </div>
@@ -158,10 +159,10 @@ get_template_part('templates/header','front-page');
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Intégration entre sites web partenaires
+                                Publication dans le reseau des partenaires
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Publiez vos offres sur les sites d'autres agences de voyage du monde entier, et facilitez la publication d'autres agences sur votre site
                             </div>
                         </div>
                     </div>
@@ -169,14 +170,14 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/6.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/gallery.png" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Galerie d'images
                             </div>
                             <div class="project-name">
-                                Afficher les images de vos offres de façon
+                                Choisissez le style préféré de votre galerie d'images parmi de multiples options en toute simplicité
                             </div>
                         </div>
                     </div>
@@ -186,8 +187,59 @@ get_template_part('templates/header','front-page');
     </div>
 </section>
 
-<aside class="bg-dark">
+<aside class="bg-dark" id="portfolio">
+    <br>
     <div class="container text-center">
+        <div class="call-to-action">
+            <h2>Qui sont nos clients ?</h2>
+            <p>
+                Experiensa est un produit de Sevinci SARL, développement des sites web et des systèmes de gestion des contenus principalement dans le secteur culturel : Une école de dance, un cinema d’auteur, une photographe, un collectif d’artistes, un bureau de design d’intérieur, entre autres.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/dancefloor.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/spoutnik.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Nos clients dans le tourisme</h2>
+        <p>
+            Les clients Experiensa sont les acteurs du tourisme tels que les agences de voyages, des Tour Opérateurs, les maisons d’hôtes, etc.
+        </p>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/ts.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/discovering.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="call-to-action">
             <h2>Free Download at Start Bootstrap!</h2>
             <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
@@ -195,6 +247,54 @@ get_template_part('templates/header','front-page');
     </div>
 </aside>
 
+<section id="about" class="landing" style="padding-bottom: 0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">A propos</h2>
+                <hr class="primary landing">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 text-center">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
+                <!-- <h3>Pour quoi?</h3> -->
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <h3>Se réinventer à l’ère du digital</h3>
+                <p class="text-muted">
+                    L’équipe Experiensa se rencontre durant le MBA HES Genève en design et gestion des services en 2011, un programme qui a pour but l’innovation des services
+                    Gabriel Zambrano informaticien et Marco Barber-Salvat commercial en nouvelles technologies. En 2012, l’entreprise Sevinci SARL est crée avec une double orientation: l’innovation et les nouvelles
+                    technologies, en collaboration avec les experts:
+                    Emmanuel Fragnières PhD professeur en gestion des services HES à Genève et à l’institut du tourisme du Valais et Magalie Dubosson PhD professeur à l’HEG Fribourg en Innovation et Entrepreneurship
+                    <br><br>
+                    Sevinci dévelope “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la creation de services, et réalise des séminaires auprès des étudiants
+                    Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <img src="http://static1.purepeople.com/articles/5/17/61/25/@/2142775-gian-marco-le-beau-bachelor-defile-en-637x0-3.jpg" alt="Experiensa logo" class="ui image big centered" />
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h3>Marco Barber Salvat</h3>
+                        <span class="text-muted">Managing partner</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/gz.png" alt="gabriel zambrano" class="ui image big centered" />
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h3>Gabriel Zambrano</h3>
+                        <span class="text-muted">CTO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
 <section id="contact" class="landing">
     <div class="container">
         <div class="row">
