@@ -95,7 +95,7 @@ get_template_part('templates/header','front-page');
         <div class="row no-gutter">
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/1.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/voyages.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -110,7 +110,7 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/2.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/devis.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -125,7 +125,7 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/3.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/partenaires.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -140,7 +140,7 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/4.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/hebergement.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -155,7 +155,7 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/5.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/publication.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -170,7 +170,7 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/portfolio/gallery.png" class="img-responsive" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/galerie.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -200,16 +200,24 @@ get_template_part('templates/header','front-page');
         <br>
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/dancefloor.png" class="img-responsive" alt="">
+                <a href="http://www.dancefloorgenevasalsa.ch/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/dancefloor.png" class="img-responsive" alt="">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/spoutnik.png" class="img-responsive" alt="">
+                <a href="http://spoutnik.info/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/spoutnik.png" class="img-responsive" alt="">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
+                <a href="http://raphaellemueller.com/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
+                <a href="http://rosabrux.org/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
+                </a>
             </div>
         </div>
         <br>
@@ -224,16 +232,23 @@ get_template_part('templates/header','front-page');
         <br>
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/ts.png" class="img-responsive" alt="">
+                <a href="http://terres-sauvages.ch/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/ts.png" class="img-responsive" alt="terres sauvages">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/discovering.png" class="img-responsive" alt="">
+                <a href="http://colombia.experiensa.com/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/discovering.png" class="img-responsive" alt="discovering colombia">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="">
+                <a href="http://fiestatravel.ch/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="fiesta travel"></a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="">
+                <a href="http://aerovoyages.ch/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="aerovoyages">
+                </a>
             </div>
         </div>
         <br>
@@ -241,8 +256,8 @@ get_template_part('templates/header','front-page');
         <br>
         <br>
         <div class="call-to-action">
-            <h2>Free Download at Start Bootstrap!</h2>
-            <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+            <!-- <h2>Free Download at Start Bootstrap!</h2>
+            <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
         </div>
     </div>
 </aside>
@@ -265,27 +280,28 @@ get_template_part('templates/header','front-page');
             <div class="col-lg-9 col-md-9">
                 <h3>Se réinventer à l’ère du digital</h3>
                 <p class="text-muted">
-                    L’équipe Experiensa se rencontre durant le MBA HES Genève en design et gestion des services en 2011, un programme qui a pour but l’innovation des services
-                    Gabriel Zambrano informaticien et Marco Barber-Salvat commercial en nouvelles technologies. En 2012, l’entreprise Sevinci SARL est crée avec une double orientation: l’innovation et les nouvelles
-                    technologies, en collaboration avec les experts:
-                    Emmanuel Fragnières PhD professeur en gestion des services HES à Genève et à l’institut du tourisme du Valais et Magalie Dubosson PhD professeur à l’HEG Fribourg en Innovation et Entrepreneurship
+                    L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève en design et gestion des services en 2011, un programme qui a pour but l’innovation des services
                     <br><br>
-                    Sevinci dévelope “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la creation de services, et réalise des séminaires auprès des étudiants
+                    En 2012, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles
+                    technologies, en collaboration avec les experts:
+                    Emmanuel Fragnières PhD professeur en gestion des services HES à Genève et à l’institut du tourisme du Valais, et Magalie Dubosson PhD professeur à l’HEG Fribourg en Innovation et Entrepreneurship
+                    <br><br>
+                    Sevinci développe “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la création de services, et réalise des séminaires auprès des étudiants.
                     Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
                 </p>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
-                        <img src="http://static1.purepeople.com/articles/5/17/61/25/@/2142775-gian-marco-le-beau-bachelor-defile-en-637x0-3.jpg" alt="Experiensa logo" class="ui image big centered" />
+                    <div class="col-lg-2 col-md-2">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.png" alt="marco" class="img-responsive img-circle" />
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <h3>Marco Barber Salvat</h3>
+                    <div class="col-lg-4 col-md-4">
+                        <h3>Marco Barber</h3>
                         <span class="text-muted">Managing partner</span>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/gz.png" alt="gabriel zambrano" class="ui image big centered" />
+                    <div class="col-lg-2 col-md-4">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle" />
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-4 col-md-4">
                         <h3>Gabriel Zambrano</h3>
                         <span class="text-muted">CTO</span>
                     </div>
@@ -295,19 +311,19 @@ get_template_part('templates/header','front-page');
     </div>
 </section>
 <br>
+<br>
+<br>
+<section>
+    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/catalogne.png" class="img-responsive"/>
+</section>
+<br>
 <section id="contact" class="landing">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <h2 class="section-heading">Pour une démo du produit, contactez:</h2>
                 <hr class="primary">
-                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-            </div>
-            <div class="col-lg-4 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>+41 78 323 23 23</p>
-            </div>
-            <div class="col-lg-4 text-center">
+                <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p><a href="mailto:your-email@your-domain.com">info@experiensa.com</a></p>
             </div>
