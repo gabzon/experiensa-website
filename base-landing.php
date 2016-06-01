@@ -328,7 +328,7 @@ get_template_part('templates/header','front-page');
                 <hr class="primary">
                 <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:your-email@your-domain.com">info@experiensa.com</a></p>
+                <p><a href="mailto:info@experiensa.com">info@experiensa.com</a></p>
             </div>
         </div>
     </div>
