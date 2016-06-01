@@ -23,7 +23,7 @@ get_template_part('templates/header','front-page');
     <div class="header-content">
         <div class="header-content-inner">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
-            <p style="margin-left:130px">Publication et gestion de contenus pour le tourisme</p>
+            <p style="margin-left:130px; font-weight:bold">Publication et gestion de contenus pour le tourisme</p>
             <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll"><?php _e('C\'est quoi ?','sage'); ?></a> -->
         </div>
     </div>
@@ -193,7 +193,7 @@ get_template_part('templates/header','front-page');
         <div class="call-to-action">
             <h2>Qui sont nos clients ?</h2>
             <p>
-                Experiensa est un produit de Sevinci SARL, développement des sites web et des systèmes de gestion des contenus principalement dans le secteur culturel : Une école de dance, un cinema d’auteur, une photographe, un collectif d’artistes, un bureau de design d’intérieur, entre autres.
+                Experiensa est un produit de Sevinci SARL, développement de sites web et des systèmes de gestion des contenus principalement dans le secteur culturel : une école de dance, un cinema d’auteur, une photographe, un collectif d’artistes, un bureau de design d’intérieur, entre autres.
             </p>
         </div>
         <br>
@@ -226,7 +226,7 @@ get_template_part('templates/header','front-page');
         <br>
         <h2>Nos clients dans le tourisme</h2>
         <p>
-            Les clients Experiensa sont les acteurs du tourisme tels que les agences de voyages, des Tour Opérateurs, les maisons d’hôtes, etc.
+            Les clients Experiensa sont les acteurs du tourisme tels que les agences de voyages, des Tour Opérateurs, les maisons d’hôtes.
         </p>
         <br>
         <br>
@@ -289,21 +289,24 @@ get_template_part('templates/header','front-page');
                     Sevinci développe “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la création de services, et réalise des séminaires auprès des étudiants.
                     Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
                 </p>
-                <br>
                 <div class="row">
                     <div class="col-lg-2 col-md-2">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.png" alt="marco" class="img-responsive img-circle" />
+                        <br>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.png" alt="marco" class="img-responsive img-circle center-block" />
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <br>
                         <h3>Marco Barber</h3>
-                        <span class="text-muted">Managing partner</span>
+                        <span class="text-muted">Business development</span>
                     </div>
                     <div class="col-lg-2 col-md-4">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle" />
+                        <br>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle center-block" />
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <br>
                         <h3>Gabriel Zambrano</h3>
-                        <span class="text-muted">CTO</span>
+                        <span class="text-muted">Product development</span>
                     </div>
                 </div>
             </div>
