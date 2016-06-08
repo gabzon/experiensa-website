@@ -4,6 +4,9 @@ use Roots\Sage\Nav\NavWalker;
 $menu_name = 'primary_navigation';
 ?>
 <header class="banner navbar navbar-fixed-top" role="banner" style="background-color:white;border-bottom:1px solid #eee">
+    <?php if (is_admin_bar_showing()): ?>
+        <?= '<div style="min-height: 28px;"></div>'; ?>
+    <?php endif; ?>
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">

@@ -10,6 +10,7 @@
 * @link https://github.com/roots/sage/pull/1042
 */
 $sage_includes = [
+    'controller/functions.php',
     'lib/utils.php',    // Scripts and stylesheets
     'lib/assets.php',    // Scripts and stylesheets
     'lib/extras.php',    // Custom functions
