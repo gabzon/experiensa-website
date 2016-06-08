@@ -17,7 +17,7 @@ do_action('get_header');
 get_template_part('templates/header','front-page');
 ?>
 <header id="landing">
-    <div style="width: 100%; height: 700px;"
+    <div style="width: 100%; height: 100vh"
     data-vide-bg="mp4: <?php echo get_stylesheet_directory_uri() ?>/assets/videos/experiensa-landing.mp4a, webm: <?php echo get_stylesheet_directory_uri() ?>/assets/videos/experiensa-landing.webma, ogv: <?php echo get_stylesheet_directory_uri() ?>/assets/videos/experiensa-landing.ogv, poster: <?php echo get_stylesheet_directory_uri() ?>/assets/images/landing-image-experiensa.jpg"
     data-vide-options="posterType: jpg, loop: true, muted: false, position: 0% 0%">
     <div class="header-content">
