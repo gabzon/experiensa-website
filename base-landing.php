@@ -292,7 +292,7 @@ get_template_part('templates/header','front-page');
                 <div class="row">
                     <div class="col-lg-2 col-md-2">
                         <br>
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.png" alt="marco" class="img-responsive img-circle center-block" />
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.jpg" alt="marco" class="img-responsive img-circle center-block" />
                     </div>
                     <div class="col-lg-4 col-md-4 text-center">
                         <br>
@@ -313,6 +313,8 @@ get_template_part('templates/header','front-page');
         </div>
     </div>
 </section>
+<br>
+<br>
 <br>
 <br>
 <br>
