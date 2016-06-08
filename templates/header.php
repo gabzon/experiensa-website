@@ -27,14 +27,3 @@ $menu_name = 'primary_navigation';
         </nav>
     </div>
 </header>
-
-<!-- <div class="ui top fixed inverted collapsible menu">
-<div class="container">
-<div class="header"><a class="left floated item brand">Collapsible-Menu</a>
-<div class="ui mini right floated button"><i class="list icon"></i></div><a class="right floated item">Other</a>
-</div>
-<div class="content"><a class="left floated item">One</a><a class="left floated item">Two</a>
-<div class="right menu"><a class="item">Three</a></div>
-</div>
-</div>
-</div> -->

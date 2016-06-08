@@ -1,7 +1,5 @@
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <?php if (is_admin_bar_showing()): ?>
-        <?= '<div style="min-height: 28px;"></div>'; ?>
-    <?php endif; ?
+    <?php if (is_admin_bar_showing()){ echo '<div style="min-height: 28px;"></div>';} ?>
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
