@@ -244,110 +244,110 @@ get_template_part('templates/header','front-page');
             <div class="col-lg-3 col-md-6">
                 <a href="http://fiestatravel.ch/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="fiesta travel"></a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="http://aerovoyages.ch/" target="_blank">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="aerovoyages">
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="http://aerovoyages.ch/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="aerovoyages">
-                </a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="call-to-action">
+                <!-- <h2>Free Download at Start Bootstrap!</h2>
+                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="call-to-action">
-            <!-- <h2>Free Download at Start Bootstrap!</h2>
-            <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
-        </div>
-    </div>
-</aside>
+    </aside>
 
-<section id="about" class="landing" style="padding-bottom: 0px">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">A propos</h2>
-                <hr class="primary landing">
+    <section id="about" class="landing" style="padding-bottom: 0px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">A propos</h2>
+                    <hr class="primary landing">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-3 text-center">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
-                <!-- <h3>Pour quoi?</h3> -->
-            </div>
-            <div class="col-lg-9 col-md-9">
-                <h3>Se réinventer à l’ère du digital</h3>
-                <p class="text-muted">
-                    L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève en design et gestion des services en 2011, un programme qui a pour but l’innovation des services
-                    <br><br>
-                    En 2012, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles
-                    technologies, en collaboration avec les experts:
-                    Emmanuel Fragnières PhD professeur en gestion des services HES à Genève et à l’institut du tourisme du Valais, et Magalie Dubosson PhD professeur à l’HEG Fribourg en Innovation et Entrepreneurship
-                    <br><br>
-                    Sevinci développe “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la création de services, et réalise des séminaires auprès des étudiants.
-                    Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
-                </p>
-                <div class="row">
-                    <div class="col-lg-2 col-md-2">
-                        <br>
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.jpg" alt="marco" class="img-responsive img-circle center-block" />
-                    </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <br>
-                        <h3>Marco Barber</h3>
-                        <span class="text-muted">Business development</span>
-                    </div>
-                    <div class="col-lg-2 col-md-4">
-                        <br>
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle center-block" />
-                    </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <br>
-                        <h3>Gabriel Zambrano</h3>
-                        <span class="text-muted">Product development</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 text-center">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
+                    <!-- <h3>Pour quoi?</h3> -->
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <h3>Se réinventer à l’ère du digital</h3>
+                    <p class="text-muted">
+                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève en design et gestion des services en 2011, un programme qui a pour but l’innovation des services
+                        <br><br>
+                        En 2012, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles
+                        technologies, en collaboration avec les experts:
+                        Emmanuel Fragnières PhD professeur en gestion des services HES à Genève et à l’institut du tourisme du Valais, et Magalie Dubosson PhD professeur à l’HEG Fribourg en Innovation et Entrepreneurship
+                        <br><br>
+                        Sevinci développe “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la création de services, et réalise des séminaires auprès des étudiants.
+                        Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <br>
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.jpg" alt="marco" class="img-responsive img-circle center-block" />
+                        </div>
+                        <div class="col-lg-4 col-md-4 text-center">
+                            <br>
+                            <h3>Marco Barber</h3>
+                            <span class="text-muted">Business development</span>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <br>
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle center-block" />
+                        </div>
+                        <div class="col-lg-4 col-md-4 text-center">
+                            <br>
+                            <h3>Gabriel Zambrano</h3>
+                            <span class="text-muted">Product development</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<section>
-    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/catalogne.png" class="img-responsive"/>
-</section>
-<br>
-<section id="contact" class="landing">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Pour une démo du produit, contactez:</h2>
-                <hr class="primary">
-                <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:info@experiensa.com">info@experiensa.com</a></p>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/catalogne.png" class="img-responsive"/>
+    </section>
+    <br>
+    <section id="contact" class="landing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Pour une démo du produit, contactez:</h2>
+                    <hr class="primary">
+                    <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:info@experiensa.com">info@experiensa.com</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<?php
-do_action('get_footer');
-get_template_part('templates/footer');
-wp_footer();
-?>
+    </section>
+    <?php
+    do_action('get_footer');
+    get_template_part('templates/footer');
+    wp_footer();
+    ?>
 
-<!-- Plugin JavaScript -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.easing.min.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.fittext.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/wow.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.easing.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.fittext.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/wow.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/creative.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/creative.js"></script>
 
 </body>
 </html>

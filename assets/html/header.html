@@ -1,8 +1,9 @@
 <p>
     The header partial of the website is where the main navigation lives. This partial lets you control & customize options related to the header section of the website.
     <br>
-    This options can be found under apperence > customize
-    The header section includes the following
+    <br>
+    This options can be found in the wordpress admin menu under <span class="ui big label">apperence > customize</span>
+    The header section includes the following information:
 </p>
 
 <ul>
@@ -11,113 +12,301 @@
     <li>tagline (slogan)</li>
     <li>Main menu (primary navigation)</li>
 </ul>
+<img src="http://documentation.experiensa.com/files/2016/05/header.png" alt="header" class="ui image" />
+<section class="files-folders">
+    <br>
+    <h2>Files & Foldes</h2>
+    <hr>
+    <div class="ui segment">
+        <ul style="list-style-type: none; padding:0; margin:0;">
+            <li>
+                <i class="fa fa-folder-open" aria-hidden="true"></i> components
+                <ul style="list-style-type: none;">
+                    <li>
+                        <i class="fa fa-file-code-o" aria-hidden="true"></i> header.php (Class and functions require to construct a proper header)
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <i class="fa fa-folder-open" aria-hidden="true"></i> config
+                <ul style="list-style-type: none;">
+                    <li>
+                        <i class="fa fa-file-code-o" aria-hidden="true"></i> customizer.php (Call to customizer-header)
+                    </li>
+                    <li>
+                        <i class="fa fa-folder-open" aria-hidden="true"></i> header
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <i class="fa fa-file-code-o" aria-hidden="true"></i> customizer-header.php (Options settings for the header customizer)
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <i class="fa fa-folder-open" aria-hidden="true"></i> templates
+                <ul style="list-style-type: none;">
+                    <li>
+                        <i class="fa fa-folder-open" aria-hidden="true"></i> partials
+                        <ul style="list-style-type: none;">
+                            <li><i class="fa fa-file-code-o" aria-hidden="true"></i> header.php</li>
+                            <li>
+                                <i class="fa fa-folder-open" aria-hidden="true"></i> header
+                                <ul style="list-style-type: none;">
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> aengus.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> aine.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> banba.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> eriu.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> fodla.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> bodb.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> brigid.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> cliodhna.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> dagda.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> danu.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> dian.php</li>
+                                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> etain.php</li>
 
-<img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header.png" alt="header" class="ui image" />
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <br>
+</section>
 <br>
-<h2>Header settings</h2>
-<table class="ui celled table">
-    <thead>
-        <tr>
-            <th width="15%">Name</th>
-            <th width="15%">Field</th>
-            <th width="70%">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="error">Layout</td>
-            <td>Select box</td>
-            <td>
-                logo center-top | text center-right | menu center-bottom
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-1.png" alt="header-1" class="ui image" />
-                <hr>
-                logo center-top | text bottom center | menu center-bottom
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-2.png" alt="header-2" class="ui image" />
-                <hr>
-                logo left-middle | text left-middle | menu right-middle (button)
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-3.png" alt="header-3" class="ui image" />
-                <hr>
-                logo right-middle | text right-middle | menu left-middle (button)
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-4.png" alt="header-4" class="ui image" />
-                <hr>
-                logo left-middle | text left-middle | menu right-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-5.png" alt="header-5" class="ui image" />
-                <hr>
-                logo right-middle | text right-middle | menu left-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-6.png" alt="header-6" class="ui image" />
-                <hr>
-                logo left-top | text left-top | menu left-bottom
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-7.png" alt="header-7" class="ui image" />
-                <hr>
-                logo right-top | text right-top | menu right-bottom
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-8.png" alt="header-8" class="ui image" />
-                <hr>
-                logo left-middle | text left-middle | menu right-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-9.png" alt="header-9" class="ui image" />
-                <hr>
-                logo right-middle | text right-middle | menu left-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-10.png" alt="header-10" class="ui image" />
-                <hr>
-                logo left-middle | menu left-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-11.png" alt="header-11" class="ui image" />
-                <hr>
-                logo right-middle | menu right-middle
-                <img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-12.png" alt="header-12" class="ui image" />
-            </td>
-        </tr>
-        <tr>
-            <td class="error">Container</td>
-            <td>Select box</td>
-            <td>
-                <ul>
-                    <li>No - Full width</li>
-                    <li>Yes - Container (Default)</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td class="error">Title & slogan</td>
-            <td>Checkbox</td>
-            <td>
-                <ul>
-                    <li>No - Don't display title & slogan (Default)</li>
-                    <li>Yes - Display title and slogan</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td  class="error">Background Color</td>
-            <td>Select Box</td>
-            <td>
-                <div class="ui grid stackable">
-                    <div class="four wide column">
-                        <div class="ui vertical buttons">
-                            <a class="ui black button">Black</a>
-                            <a class="ui blue button">Blue</a>
-                            <a class="ui brown button">Brown</a>
-                            <a class="ui green button">Green</a>
-                            <a class="ui red button">Red</a>
-                            <a class="ui basic button">White (default)</a>
-                            <a class="ui orange button">Orange</a>
-                            <a class="ui pink button">Pink</a>
-                            <a class="ui teal button">Teal</a>
-                            <a class="ui purple button">Purple</a>
-                            <a class="ui grey button">Grey</a>
-                            <a class="ui violet button">violet</a>
-                            <a class="ui yellow button">yellow</a>
-                            <a class="ui olive button">olive</a>
-                        </div>
-                    </div>
-                    <div class="twelve wide column">
-                        <div class="ui message">
-                            <i class="warning sign icon"></i> If the landing section of the template is a full width image or video background, then the header navigation will be transparent, until the user scrolls down
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table>
+<section id="header-options">
+    <h2>Header Settings</h2>
+    <hr>
+    <ul>
+        <li><a href="#layout">Layout</a></li>
+        <li><a href="#container">Container</a></li>
+        <li><a href="#title">Title & Tagline</a></li>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#fonts">Fonts</a></li>
+    </ul>
+</section>
+
+<section id="layout">
+    <br>&nbsp;<br>
+    <br>
+    <h3 >Layout</h3>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Setting</th>
+                <th>Field</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="12">Layout</td>
+                <td rowspan="12">Select box</td>
+                <td>
+                    <select>
+                        <option value="aengus">Aengus</option>
+                        <option value="aine">Aine</option>
+                        <option value="Banba">Banba</option>
+                        <option value="Eriu">Eriu</option>
+                        <option value="Fodla" selected="selected">Fodla</option>
+                        <option value="Bodb">Bodb</option>
+                        <option value="Brigid">Brigid</option>
+                        <option value="Cliodhna">Cliodhna</option>
+                        <option value="Dagda">Dagda</option>
+                        <option value="Danu">Danu</option>
+                        <option value="Dian">Dian</option>
+                        <option value="Etain">Etain</option>
+                    </select>
+                    *If possible to use images in the select box even better
+                </td>
+                <td>
+                    <b>Aengus</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-1.png" alt="header-1" class="ui image" />
+                    <b>Aine</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-2.png" alt="header-2" class="ui image" />
+                    <b>Banba</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-3.png" alt="header-3" class="ui image" />
+                    <b>Eriu</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-4.png" alt="header-4" class="ui image" />
+                    <b>Fodla (Default)</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-5.png" alt="header-5" class="ui image" />
+                    <b>Bodb</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-6.png" alt="header-6" class="ui image" />
+                    <b>Brigid</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-7.png" alt="header-7" class="ui image" />
+                    <b>Cliodhna</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-8.png" alt="header-8" class="ui image" />
+                    <b>Dagda</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-9.png" alt="header-9" class="ui image" />
+                    <b>Danu</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-10.png" alt="header-10" class="ui image" />
+                    <b>Dian</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-11.png" alt="header-11" class="ui image" />
+                    <b>Etain</b>
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-12.png" alt="header-12" class="ui image" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="ui orange segment">
+        In order to avoid complexity naming header templates, each header layout name come from an Irish mythological figure.
+        <a href="https://en.wikipedia.org/wiki/List_of_Irish_mythological_figures" target="_blank">(Check names here)</a>
+        <br>
+        <br>
+        Some of the rules for taking names are the following:
+        <ul>
+            <li>Only take 1 name (by default the first name)</li>
+            <li>No accents</li>
+            <li>No special characters</li>
+        </ul>
+    </div>
+</section>
+
+<section id="container">
+    <br>&nbsp;<br>
+    <br>
+    <h3>Container</h3>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Setting</th>
+                <th>Field</th>
+                <th>Options</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Container</td>
+                <td rowspan="2">Select box</td>
+                <td>
+                    <select>
+                        <option value="container">Container</option>
+                        <option value="full-width">Full width</option>
+                    </select>
+                </td>
+                <td>
+                    Container (Default)
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-5.png" alt="header-5" class="ui image" />
+                    Full-width
+                    <img src="http://documentation.experiensa.com/files/2016/05/header-fullwidth.png" alt="header-fullwidth" class="ui image" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="title">
+    <br>&nbsp;<br>
+    <br>
+    <h3>Title & Tagline</h3>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Setting</th>
+                <th>Field</th>
+                <th>Options</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Title</td>
+                <td>Checkbox</td>
+                <td><input type="checkbox"> Display title</td>
+                <td>Default: empty (Don't display)</td>
+            </tr>
+            <tr>
+                <td>Tagline</td>
+                <td>Checkbox</td>
+                <td><input type="checkbox"> Display slogan</td>
+                <td>Default:empty (Don't display)</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="background">
+    <br>&nbsp;<br>
+    <br>
+    <h3>Background</h3>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Option</th>
+                <th>Field</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Background Color</td>
+                <td>Wordpress ColorPicker</td>
+                <td>Wordpress ColorPicker</td>
+                <td>
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> If the landing section of the template is a full screen image or video background, then the header navigation will be transparent, until the user scrolls down
+                </td>
+            </tr>
+            <tr>
+                <td>Background image</td>
+                <td>Wordpress file uploader</td>
+                <td>Wordpress file uploader</td>
+                <td>
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> If the landing section of the template is a full screen image or video background, then the header navigation will be transparent, until the user scrolls down
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="fonts">
+    <br>&nbsp;<br>
+    <br>
+    <h3>Fonts</h3>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Option</th>
+                <th>Field</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Font Color</td>
+                <td>Wordpress colorpicker</td>
+                <td>
+                    Wordpress colorpicker
+                </td>
+                <td>
+                    Choose the color you prefer
+                </td>
+            </tr>
+            <tr>
+                <td>Font style</td>
+                <td>Select box</td>
+                <td>
+                    <select>
+                        <option value="capitalize">Capitalize</option>
+                        <option value="uppercase">Uppercase</option>
+                        <option value="lowercase">Lowercase</option>
+                    </select>
+                </td>
+                <td>
+                    Lets you choose between capital letters, lower letters or if you prefer to have only the first capital letter
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
 
 <h2>Mobile</h2>
-<img src="http://localhost/experiensa-site/web/app/uploads/2016/05/header-3.png" alt="header-3" width="379" height="52" class="alignnone size-full wp-image-175" />
+<hr>
+For the moment the layout for the mobile menu will always be like this.
+<img src="http://documentation.experiensa.com/files/2016/05/header-3.png" alt="header-3" class="ui image" />

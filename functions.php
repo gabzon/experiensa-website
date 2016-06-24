@@ -30,3 +30,5 @@ foreach ($sage_includes as $file) {
     require_once $filepath;
 }
 unset($file, $filepath);
+
+remove_filter ('the_content', 'wpautop'); 

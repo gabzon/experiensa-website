@@ -20,13 +20,19 @@ get_template_part('templates/header');
 ?>
 <div class="wrap container" role="document">
     <div class="content row">
-        <main class="main">
-            <?php include Wrapper\template_path(); ?>
-        </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
-            <aside class="sidebar">
-                <?php include Wrapper\sidebar_path(); ?>
-            </aside><!-- /.sidebar -->
+            <div class="ui grid stackable">
+                <main class="main twelve wide column">
+                    <?php include Wrapper\template_path(); ?>
+                </main><!-- /.main -->
+                <aside class="sidebar four wide column">
+                    <?php include Wrapper\sidebar_path(); ?>
+                </aside><!-- /.sidebar -->
+            </div>
+        <?php else: ?>
+            <main class="main">
+                <?php include Wrapper\template_path(); ?>
+            </main><!-- /.main -->
         <?php endif; ?>
     </div><!-- /.content -->
 </div><!-- /.wrap -->
