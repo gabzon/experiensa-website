@@ -280,10 +280,7 @@ get_template_part('templates/header','front-page');
                 <div class="col-lg-9 col-md-9">
                     <h3>Se réinventer à l’ère du digital</h3>
                     <p class="text-muted">
-                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs de HES et de l’institut du tourisme.
-                        <br><br>
-                        Sevinci développe “the business tool kit” : une compilation en ligne d’outils permettant l’innovation et la création de services, et réalise des séminaires auprès des étudiants.
-                        Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
+                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs de HES et de l’institut du tourisme. Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
                     </p>
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
