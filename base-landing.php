@@ -199,17 +199,17 @@ get_template_part('templates/header','front-page');
         <br>
         <br>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <a href="http://www.dancefloorgenevasalsa.ch/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/dancefloor.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <a href="http://spoutnik.info/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/spoutnik.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <!-- <a href="http://raphaellemueller.com/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
                 </a> -->
@@ -217,9 +217,15 @@ get_template_part('templates/header','front-page');
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/ismaelk.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <a href="http://rosabrux.org/" target="_blank">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <br><br><br><br>
+                <a href="http://www.concertapart.com/" target="_blank">
+                    <h1 style="color:white;" class="concert-apart">CONCERTS àPART</h1>
                 </a>
             </div>
         </div>
