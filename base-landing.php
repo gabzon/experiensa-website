@@ -193,7 +193,7 @@ get_template_part('templates/header','front-page');
         <div class="call-to-action">
             <h2>Qui sont nos clients ?</h2>
             <p>
-                Experiensa est un produit de Sevinci SARL, développement de sites web et des systèmes de gestion des contenus principalement dans le secteur culturel : parmi nos clients, une école de dance, un cinema d’auteur, une agence événementiel, des musiciens, une photographe, un collectif d’artistes, un bureau de design d’intérieur, entre autres.
+                Experiensa est un produit de Sevinci SARL, développement de sites web et des systèmes de gestion des contenus principalement dans le secteur culturel : parmi nos clients, une école de dance, un cinema d’auteur, une agence événementielle, des musiciens, une photographe, un collectif d’artistes, un bureau de design d’intérieur, entre autres.
             </p>
         </div>
         <br>
@@ -226,6 +226,12 @@ get_template_part('templates/header','front-page');
                 <br><br><br><br>
                 <a href="http://www.concertapart.com/" target="_blank">
                     <h1 style="color:white;" class="concert-apart">CONCERTS àPART</h1>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <br><br><br><br>
+                <a href="http://bureausvdp.com/" target="_blank">
+                    <h1 style="color:white;">Bureau SVDP</h1>
                 </a>
             </div>
         </div>
@@ -289,7 +295,7 @@ get_template_part('templates/header','front-page');
                 <div class="col-lg-9 col-md-9">
                     <h3>Se réinventer à l’ère du digital</h3>
                     <p class="text-muted">
-                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs de HES et de l’institut du tourisme. Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
+                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs des HES et de l’institut du tourisme. Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
                     </p>
                     <div class="row">
                         <div class="col-lg-2 col-md-3">
