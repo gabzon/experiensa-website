@@ -1,13 +1,15 @@
-<div class="ui container">
-    <div class="page-header">
-        <h1>Documentation<br><small>This website intends to create a solid documentation for the development the Experiensa App</small></h1>
+<div class="jumbotron" style="margin-top:-20px">
+    <div class="container">
+        <div class="page-header text-center">
+            <h1>Documentation<br><small>This website intends to create a solid documentation for the development the Experiensa App</small></h1>
+        </div>
     </div>
 </div>
 
 <br>
 <br>
 <div class="container">
-<div class="ui vertical basic segment">
+    <div class="ui vertical basic segment">
 
         <div class="ui grid stackable">
             <div class="three wide column">
@@ -41,6 +43,29 @@
             </div>
             <div class="column">
                 <h4>Improve customer service</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<section>
+    <div class="container">
+        <div class="ui three column grid stackable">
+            <div class="column">
+                <h3>Business Needs</h3>
+                <ul>
+                    <li>Create Offers/packages</li>
+                    <li>Manage Requests and estimates</li>
+                    <li>Manage Travel inconvinients</li>
+                    <li>Negociate deals and prices with partners</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Business Goals</h3>
+            </div>
+            <div class="column">
+                <h3>Solutions</h3>
             </div>
         </div>
     </div>

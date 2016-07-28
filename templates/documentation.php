@@ -4,8 +4,10 @@
 */
 ?>
 <br>
-<div class="page-header">
-    <h1>Experiensa Documentation <br><small>This website intends to create a solid documentation for the development of the application Experiensa    </small></h1>
+<div class="jumbotron">
+    <div class="page-header">
+        <h1>Experiensa Documentation <br><small>This website intends to create a solid documentation for the development of the application Experiensa</small></h1>
+    </div>
 </div>
 
 <br>
