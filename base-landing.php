@@ -211,27 +211,58 @@ get_template_part('templates/header','front-page');
             </div>
             <div class="col-lg-4 col-md-6">
                 <!-- <a href="http://raphaellemueller.com/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
-                </a> -->
-                <a href="http://www.ismaelk.com/en/home/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/ismaelk.png" class="img-responsive" alt="">
-                </a>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/mueller.png" class="img-responsive" alt="">
+            </a> -->
+            <a href="http://www.ismaelk.com/en/home/" target="_blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/ismaelk.png" class="img-responsive" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <a href="http://rosabrux.org/" target="_blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <br><br><br>
+            <h1 class="concert-apart">
+                <a href="http://www.concertapart.com/" style="color:white; border:1px solid white; padding:5px; border-radius:8px" target="_blank">CONCERTS àPART</a>
+            </h1>
+        </div>
+        <div class="col-lg-4 col-md-6" >
+            <br><br><br>
+            <h1>
+                <a href="http://bureausvdp.com/" target="_blank" style="color:#1F88A7;background:#EFEFEF; padding:15px">bureau svdp</a>
+            </h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Nos clients dans le tourisme</h2>
+    <p>
+        Les clients Experiensa sont les acteurs du tourisme tels que les agences de voyages, des Tour Opérateurs, les maisons d’hôtes.
+    </p>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <a href="http://terres-sauvages.ch/" target="_blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/ts.png" class="img-responsive" alt="terres sauvages">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="http://colombia.experiensa.com/" target="_blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/discovering.png" class="img-responsive" alt="discovering colombia">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="http://fiestatravel.ch/" target="_blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="fiesta travel"></a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <a href="http://rosabrux.org/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clients/rosabrux.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <br><br><br><br>
-                <a href="http://www.concertapart.com/" target="_blank">
-                    <h1 style="color:white;" class="concert-apart">CONCERTS àPART</h1>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <br><br><br><br>
-                <a href="http://bureausvdp.com/" target="_blank">
-                    <h1 style="color:white;">Bureau SVDP</h1>
+            <div class="col-lg-3 col-md-6">
+                <a href="http://aerovoyages.ch/" target="_blank">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="aerovoyages">
                 </a>
             </div>
         </div>
@@ -239,123 +270,92 @@ get_template_part('templates/header','front-page');
         <br>
         <br>
         <br>
-        <h2>Nos clients dans le tourisme</h2>
-        <p>
-            Les clients Experiensa sont les acteurs du tourisme tels que les agences de voyages, des Tour Opérateurs, les maisons d’hôtes.
-        </p>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <a href="http://terres-sauvages.ch/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/ts.png" class="img-responsive" alt="terres sauvages">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="http://colombia.experiensa.com/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/discovering.png" class="img-responsive" alt="discovering colombia">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="http://fiestatravel.ch/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/fiestatravel.png" class="img-responsive" alt="fiesta travel"></a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <a href="http://aerovoyages.ch/" target="_blank">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/agencies/aerovoyages.png" class="img-responsive" alt="aerovoyages">
-                    </a>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="call-to-action">
-                <!-- <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
-            </div>
+        <div class="call-to-action">
+            <!-- <h2>Free Download at Start Bootstrap!</h2>
+            <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a> -->
         </div>
-    </aside>
+    </div>
+</aside>
 
-    <section id="about" class="landing" style="padding-bottom: 0px">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">A propos</h2>
-                    <hr class="primary landing">
-                </div>
+<section id="about" class="landing" style="padding-bottom: 0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">A propos</h2>
+                <hr class="primary landing">
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 text-center">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
-                    <!-- <h3>Pour quoi?</h3> -->
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Se réinventer à l’ère du digital</h3>
-                    <p class="text-muted">
-                        L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs des HES et de l’institut du tourisme. Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-2 col-md-3">
-                            <br>
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.jpg" alt="marco" class="img-responsive img-circle center-block" />
-                        </div>
-                        <div class="col-lg-4 col-md-3 text-center">
-                            <br>
-                            <h3>Marco Barber</h3>
-                            <span class="text-muted">Business development</span>
-                        </div>
-                        <div class="col-lg-2 col-md-3">
-                            <br>
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle center-block" />
-                        </div>
-                        <div class="col-lg-4 col-md-3 text-center">
-                            <br>
-                            <h3>Gabriel Zambrano</h3>
-                            <span class="text-muted">Product development</span>
-                        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 text-center">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo-experiensa-big.png" alt="Experiensa logo" class="ui image big centered" />
+                <!-- <h3>Pour quoi?</h3> -->
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <h3>Se réinventer à l’ère du digital</h3>
+                <p class="text-muted">
+                    L’équipe Experiensa - Gabriel Zambrano informaticien et Marco Barber commercial en nouvelles technologies - se rencontre durant le MBA HES Genève, un programme qui a pour but l’innovation des services. En 2013, l’entreprise Sevinci Sàrl est créé avec une double orientation: l’innovation et les nouvelles technologies, en collaboration avec les professeurs des HES et de l’institut du tourisme. Depuis 2014 Sevinci travaille à l’analyse opérationnelle des acteurs du tourisme et au développement d’une solution web: Experiensa
+                </p>
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <br>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/marco.jpg" alt="marco" class="img-responsive img-circle center-block" />
+                    </div>
+                    <div class="col-lg-4 col-md-3 text-center">
+                        <br>
+                        <h3>Marco Barber</h3>
+                        <span class="text-muted">Business development</span>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <br>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/team/gabriel.png" alt="gabriel zambrano" class="img-responsive img-circle center-block" />
+                    </div>
+                    <div class="col-lg-4 col-md-3 text-center">
+                        <br>
+                        <h3>Gabriel Zambrano</h3>
+                        <span class="text-muted">Product development</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section>
-        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/catalogne.png" class="img-responsive"/>
-    </section>
-    <br>
-    <section id="contact" class="landing">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Pour une démo du produit, contactez:</h2>
-                    <hr class="primary">
-                    <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:info@experiensa.com">info@experiensa.com</a></p>
-                </div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/catalogne.png" class="img-responsive"/>
+</section>
+<br>
+<section id="contact" class="landing">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Pour une démo du produit, contactez:</h2>
+                <hr class="primary">
+                <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:info@experiensa.com">info@experiensa.com</a></p>
             </div>
         </div>
-    </section>
-    <?php
-    do_action('get_footer');
-    get_template_part('templates/footer');
-    wp_footer();
-    ?>
+    </div>
+</section>
+<?php
+do_action('get_footer');
+get_template_part('templates/footer');
+wp_footer();
+?>
 
-    <!-- Plugin JavaScript -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.easing.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.fittext.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/wow.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.easing.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/jquery.fittext.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/wow.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/creative.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/scripts/creative.js"></script>
 
 </body>
 </html>
